@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/title_temp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/btn_left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="账户安全"
+            android:textColor="@color/textTitleColor"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_zhuxiao"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_shape_circle_click"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="账户注销"
+        android:textColor="@color/textHoldColor" />
+</LinearLayout>

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53243b40-8704-4926-a411-004c4dceef24" name="Default Changelist" comment="merge qrcode &#10;&#10;by AEAL">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/AccountDetailAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/AccountDetailAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/AnwerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/AnwerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/AutoTaoXiAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/AutoTaoXiAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/BookAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/BookAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/BookNewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/BookNewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ChapterListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ChapterListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/CommentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/CommentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/CoolectionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/CoolectionAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/DownloadAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/DownloadAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/DownloadDAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/DownloadDAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ErrorTiAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ErrorTiAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ExerciseAnswerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ExerciseAnswerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ExerciseExerciseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ExerciseExerciseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/GuiZheAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/GuiZheAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HelpAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HelpAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HistoryHuoDongNewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HistoryHuoDongNewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HomeHotAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HomeHotAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HomeMoreBooksAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HomeMoreBooksAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HomeMoreCurriculumAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HomeMoreCurriculumAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HomeMoreQualityEducationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HomeMoreQualityEducationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HuoDongBottomAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HuoDongBottomAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HuoDongNewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HuoDongNewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HuoDongTopAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/HuoDongTopAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ImageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ImageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ImageLookAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ImageLookAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/IntegralAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/IntegralAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/IntegralDetailAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/IntegralDetailAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/KechengAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/KechengAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/KechengNewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/KechengNewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/LeverAndIntegralAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/LeverAndIntegralAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MatchAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MatchAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MatchRankAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MatchRankAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MatchTiAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MatchTiAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MessageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MessageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MineAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MineAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MyBuyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MyBuyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MyTiAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/MyTiAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PackageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PackageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PayTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PayTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PingLunAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PingLunAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PopAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PopAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PyLishiAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PyLishiAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PySpellAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PySpellAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PykechenAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/PykechenAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/QualityEducationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/QualityEducationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/QualityEducationNewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/QualityEducationNewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/QuestionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/QuestionAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/QuestionDetailAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/QuestionDetailAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/RankManAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/RankManAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/RankManChildAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/RankManChildAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/Rechargedapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/Rechargedapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ResourceByCategoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ResourceByCategoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SchoolPopAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SchoolPopAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SearchDayiAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SearchDayiAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SearchKnowPointAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SearchKnowPointAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SearchTushuAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SearchTushuAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SearchZiYuanAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SearchZiYuanAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SetExerciseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/SetExerciseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/StudyReportAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/StudyReportAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TeacherResAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TeacherResAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipKechengAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipKechengAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipQuestResourceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipQuestResourceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipResourceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipResourceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipTeacherResourceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TipTeacherResourceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TypeCommentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/TypeCommentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/UpDataAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/UpDataAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/WholeBookChildAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/WholeBookChildAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/WholeBookOneAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/WholeBookOneAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/WholeCourseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/WholeCourseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/WholePageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/WholePageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ZiyuanAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ZiyuanAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ZiyuanDownLoadAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ZiyuanDownLoadAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ZuheBookAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Adapter/ZuheBookAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Jpush/MyReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/Jpush/MyReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/StudyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/StudyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/AutoPollRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/AutoPollRecyclerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/AutoSplitTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/AutoSplitTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/CapterView/CaptureView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/CapterView/CaptureView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/CapterView/CaptureeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/CapterView/CaptureeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/CaptureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/CaptureManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/LoadMoreFooterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/LoadMoreFooterView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/MatchRankPopWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/MatchRankPopWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/RefreshHeaderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/RefreshHeaderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/SchoolPopWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/SchoolPopWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/SharePopWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/SharePopWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/SpinnerPopWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/SpinnerPopWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/StrokeTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/StrokeTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/treelist/TreeRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/View/treelist/TreeRecyclerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AccountCancleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AccountCancleActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AccountManagementDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AccountManagementDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AnswerBuyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AnswerBuyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AppShareActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AppShareActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AuthLoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/AuthLoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/BigPicActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/BigPicActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/BookDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/BookDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ChapterDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ChapterDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/CollectionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/CollectionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/CommentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/CommentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/CompositionSubmissionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/CompositionSubmissionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/DownLoadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/DownLoadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/DownLoadAndUpdataActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/DownLoadAndUpdataActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/DownLoadDActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/DownLoadDActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ErrorSubmissionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ErrorSubmissionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ErrorTiActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ErrorTiActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ExerciseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ExerciseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ExerciseExerciseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ExerciseExerciseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ExerciseLookActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ExerciseLookActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/HelpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/HelpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/HelpUpDataActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/HelpUpDataActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/HomeMoreActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/HomeMoreActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/IntegralDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/IntegralDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/KengChengDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/KengChengDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/KnowledgePointActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/KnowledgePointActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/LevelIntegralActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/LevelIntegralActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MatchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MatchActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MatchDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MatchDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MatchGuiZheActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MatchGuiZheActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MatchRankActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MatchRankActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MeResultActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MeResultActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MessHuDongActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MessHuDongActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MessageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MessageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MyBagActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MyBagActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MyBuyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MyBuyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MyUpdataActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/MyUpdataActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/PinyinDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/PinyinDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/PinyinKenchenListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/PinyinKenchenListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/PinyinLishiListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/PinyinLishiListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/PinyinSpellListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/PinyinSpellListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/QuestionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/QuestionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/QuestionCloselyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/QuestionCloselyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/QuestionDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/QuestionDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ReadBookListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ReadBookListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/RechargeCouponActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/RechargeCouponActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ReportDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ReportDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ResourceBuyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ResourceBuyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/RichtextActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/RichtextActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SafeAccountActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SafeAccountActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SearchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SearchActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SearchDActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SearchDActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SeeResourcesVideoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SeeResourcesVideoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SeeTeacherResourcesVideoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SeeTeacherResourcesVideoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SetExerciseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SetExerciseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ShareMatchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/ShareMatchActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SharePinActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SharePinActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/StudyreportActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/StudyreportActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TaoXiDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TaoXiDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherActivationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherActivationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherResChapterDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherResChapterDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherResDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherResDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherResourcesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherResourcesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherUpdataActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/TeacherUpdataActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/UserInfoChangeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/UserInfoChangeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WebActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WebActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WelcomeGuidActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WelcomeGuidActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WholeBookChapterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WholeBookChapterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WholeBookCourseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WholeBookCourseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WholeCourseDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/activity/WholeCourseDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/bean/HomeBean/ResourceDetailBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/bean/HomeBean/ResourceDetailBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/BasePicFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/BasePicFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/SearchFourFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/SearchFourFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/SearchOneFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/SearchOneFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/SearchThreeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/SearchThreeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/SearchTwoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/SearchTwoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabFourFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabFourFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabOneFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabOneFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabOneNewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabOneNewFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabThreeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabThreeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabThreeNewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabThreeNewFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabTwoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/TabTwoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/WholeCourseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/WholeCourseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/WholeDesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/fragment/WholeDesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/net/LoadFileModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/net/LoadFileModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/net/RetroFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/net/RetroFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/service/UpLoadIntentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/service/UpLoadIntentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/tool/ImageCacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/tool/ImageCacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/utils/PermissionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/utils/PermissionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/utils/SysUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/utils/SysUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/utils/ToolUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/utils/ToolUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/wxapi/WXEntryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/wxapi/WXEntryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/wxapi/WXPayEntryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/software/ecenter/study/wxapi/WXPayEntryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_management.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_management.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_management_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_account_management_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_answer_buy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_answer_buy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_book_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_book_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapter_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapter_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_collection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_comment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_comment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_composition_submission.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_composition_submission.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_down_load.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_down_load.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_downloadandupdata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_downloadandupdata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_error_submission.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_error_submission.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_errorti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_errorti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_exchange_coupons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_exchange_coupons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_exercise.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_exercise.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_exercise_exercise.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_exercise_exercise.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_exercise_look.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_exercise_look.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_file_display.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_file_display.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_help_up_data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_help_up_data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_huo_dong_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_huo_dong_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_image_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_image_gallery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_integral_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_integral_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_kengcheng_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_kengcheng_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_knowledge_point.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_knowledge_point.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_level_integral.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_level_integral.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_match.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_match.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_matchdetail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_matchdetail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_matchguizhe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_matchguizhe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_meresult.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_meresult.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_message_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_message_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_messhudong.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_messhudong.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_bag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_bag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_buy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_buy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_updata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_updata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pinyindetail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pinyindetail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pinyinkenchenlist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pinyinkenchenlist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pinyinlishilist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pinyinlishilist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_question.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_question_closely.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question_closely.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_question_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_readbooklist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_readbooklist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_recharge_coupon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recharge_coupon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resource_buy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resource_buy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_searchd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_searchd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_see_resources_video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_see_resources_video.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_see_teacher_resources_video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_see_teacher_resources_video.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_set_exercise.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_set_exercise.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_studyreport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_studyreport.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tao_xi_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tao_xi_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_res_chapter_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_res_chapter_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_res_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_res_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_updata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_updata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_info_change.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_info_change.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_whole_top.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_whole_top.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_wholebookchapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_wholebookchapter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_wholebookcourse.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_wholebookcourse.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_wholecoursedetail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_wholecoursedetail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/auto_taoxi_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/auto_taoxi_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/captureview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/captureview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_four.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_four.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_one_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_one_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_three.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_three_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_three_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_wholecourse.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_wholecourse.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_book_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_book_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_kecheng_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_kecheng_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_class_jaoyu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_class_jaoyu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_class_jaoyu_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_class_jaoyu_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_errorti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_errorti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_home_hot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_home_hot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_home_more_quality_education.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_home_more_quality_education.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_macth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_macth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_myti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_myti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_rankman.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rankman.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_resourcebycategory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_resourcebycategory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_studyreport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_studyreport.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_whole_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_whole_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/itme_lishi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/itme_lishi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/itme_pykechen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/itme_pykechen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/jpush_webview_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/jpush_webview_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_match_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_match_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_matchrank_bot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_matchrank_bot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_matchrank_top.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_matchrank_top.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_pin_share.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_pin_share.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_pinyinspell_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_pinyinspell_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_report_bot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_report_bot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_report_mid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_report_mid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_report_youhui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_report_youhui.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_result_top.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_result_top.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_share.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_share.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/lay_yingxiao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/lay_yingxiao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_see_comment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_see_comment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_captureday_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_captureday_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_collection_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_collection_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_comment_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_comment_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_download_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_download_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_exercise_exercise_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_exercise_exercise_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_help_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_help_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_huodong_bottom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_huodong_bottom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_message_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_message_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_mybuy_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_mybuy_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_pay_type_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_pay_type_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_pinglun_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_pinglun_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_question_detail_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_question_detail_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_question_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_question_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_recharge_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_recharge_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_set_exercise_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_set_exercise_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_tree_chapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_tree_chapter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_updata_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_updata_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_ziyuan_download_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_ziyuan_download_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_ziyuan_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_ziyuan_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_zuhe_book_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_zuhe_book_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/matchrank_popwindow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/matchrank_popwindow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/school_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/school_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/school_popwindow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/school_popwindow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/spinner_popwindow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_popwindow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_shoudong_code.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_shoudong_code.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_yinshi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_yinshi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circleprogressbar/circleprogressbar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/circleprogressbar/circleprogressbar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circleprogressbar/src/main/java/com/dinuscxj/progressbar/CircleProgressBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/circleprogressbar/src/main/java/com/dinuscxj/progressbar/CircleProgressBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/PictureMultiCuttingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/PictureMultiCuttingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/PicturePhotoGalleryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/PicturePhotoGalleryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/UCrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/UCrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/UCropActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/UCropActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/UCropMulti.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/UCropMulti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/callback/BitmapCropCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/callback/BitmapCropCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/callback/BitmapLoadCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/callback/BitmapLoadCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/model/AspectRatio.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/model/AspectRatio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/util/BitmapLoadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/util/BitmapLoadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/util/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/util/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/util/RotationGestureDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/util/RotationGestureDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/CropImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/CropImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/OverlayView.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/OverlayView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/TransformImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/TransformImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/UCropView.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/UCropView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/widget/AspectRatioTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/widget/AspectRatioTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/widget/HorizontalProgressWheelView.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/java/com/yalantis/ucrop/view/widget/HorizontalProgressWheelView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/res/layout/ucrop_activity_photobox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/res/layout/ucrop_activity_photobox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary/src/main/res/layout/ucrop_picture_activity_multi_cutting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary/src/main/res/layout/ucrop_picture_activity_multi_cutting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureBaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureBaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureExternalPreviewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureExternalPreviewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureFileProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureFileProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PicturePreviewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PicturePreviewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureSelectionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureSelectionModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureSelectorActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/PictureSelectorActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/adapter/PictureAlbumDirectoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/adapter/PictureAlbumDirectoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/adapter/PictureImageGridAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/adapter/PictureImageGridAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/adapter/SimpleFragmentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/adapter/SimpleFragmentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/compress/Luban.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/compress/Luban.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/config/PictureSelectionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/config/PictureSelectionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/decoration/GridSpacingItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/decoration/GridSpacingItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/decoration/RecycleViewDivider.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/decoration/RecycleViewDivider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/model/LocalMediaLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/model/LocalMediaLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/permissions/RxPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/permissions/RxPermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/permissions/RxPermissionsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/permissions/RxPermissionsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/photoview/PhotoViewAttacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/photoview/PhotoViewAttacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/tools/PictureFileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/tools/PictureFileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/widget/FolderPopWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/widget/FolderPopWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/widget/PreviewViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/widget/PreviewViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/widget/longimage/CompatDecoderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/widget/longimage/CompatDecoderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/widget/longimage/SubsamplingScaleImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/java/com/luck/picture/lib/widget/longimage/SubsamplingScaleImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/res/layout/picture_album_folder_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/res/layout/picture_album_folder_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/res/layout/picture_item_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/res/layout/picture_item_camera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/res/layout/picture_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/res/layout/picture_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/src/main/res/layout/picture_window_folder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/picture/src/main/res/layout/picture_window_folder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zxinglibrary/src/main/java/com/yzq/zxinglibrary/android/CaptureActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/zxinglibrary/src/main/java/com/yzq/zxinglibrary/android/CaptureActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zxinglibrary/src/main/java/com/yzq/zxinglibrary/view/ViewfinderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/zxinglibrary/src/main/java/com/yzq/zxinglibrary/view/ViewfinderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zxinglibrary/src/main/res/layout/activity_capture.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zxinglibrary/src/main/res/layout/activity_capture.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="e9ffc643" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/keystore/key_soft_ecenter.keystore" />
+    <option name="KEY_ALIAS" value="study" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="ProjectId" id="1dDLadgdOsWpzQHiUaBndS1Vdfa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="app" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_t860-R52N206SVRA" />
+    <property name="DEBUGGABLE_PROCESS" value="software.ecenter.study" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="TUPDU18B28000183" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-29T15:42:28.723Z" />
+    <property name="ExportApk.ApkPath" value="D:\company_study2\Study\app" />
+    <property name="ExportApk.BuildVariants" value="aliRelease&#10;baiduRelease&#10;devRelease&#10;houtaiRelease&#10;prodRelease&#10;yingyongbaoRelease" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="software.ecenter.study.utils" />
+      <recent name="software.ecenter.study.bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\company_study2\Study\app\libs" />
+      <recent name="D:\company_study2\Study\app\src\main\res\mipmap-hdpi" />
+      <recent name="$PROJECT_DIR$/app/libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\ASUS\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="MERGE_DRY_RUN" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53243b40-8704-4926-a411-004c4dceef24" name="Default Changelist" comment="" />
+      <created>1591954781145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591954781145</updated>
+    </task>
+    <task id="LOCAL-00001" summary="bug fixed&#10;1、9296：追加购买的弹框中，按钮应显示为&quot;确定&quot;&#10;2、9297：课程详情页元宝数未显示&#10;3、9298：未打包购买时，章节详情页的离线下载应置灰&#10;&#10;by AEAL">
+      <created>1592299241029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592299241029</updated>
+    </task>
+    <task id="LOCAL-00002" summary="merge qrcode &#10;&#10;by AEAL">
+      <created>1592542817029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592542817029</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="bug fixed&#10;1、9296：追加购买的弹框中，按钮应显示为&quot;确定&quot;&#10;2、9297：课程详情页元宝数未显示&#10;3、9298：未打包购买时，章节详情页的离线下载应置灰&#10;&#10;by AEAL" />
+    <MESSAGE value="merge qrcode &#10;&#10;by AEAL" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge qrcode &#10;&#10;by AEAL" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="502" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1602659389353">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="502" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1602659389353" />
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1602828489747">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1602828489747" />
+    <state width="1493" height="60" key="GridCell.Tab.0.bottom" timestamp="1603189605132">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1603189605132" />
+    <state width="1493" height="60" key="GridCell.Tab.0.center" timestamp="1603189605132">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1603189605132" />
+    <state width="1493" height="60" key="GridCell.Tab.0.left" timestamp="1603189605132">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1603189605132" />
+    <state width="1493" height="60" key="GridCell.Tab.0.right" timestamp="1603189605132">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1603189605132" />
+    <state width="1493" height="416" key="GridCell.Tab.1.bottom" timestamp="1601286871293">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="416" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601286871293" />
+    <state width="1493" height="416" key="GridCell.Tab.1.center" timestamp="1601286871293">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="416" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1601286871293" />
+    <state width="1493" height="416" key="GridCell.Tab.1.left" timestamp="1601286871293">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="416" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1601286871293" />
+    <state width="1493" height="416" key="GridCell.Tab.1.right" timestamp="1601286871293">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="416" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1601286871293" />
+    <state x="270" y="59" key="SettingsEditor" timestamp="1603178269773">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1603178269773" />
+    <state x="139" y="133" width="1200" height="596" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1601393825370">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="139" y="133" width="1200" height="596" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.834@0.0.1536.834" timestamp="1601393825370" />
+    <state x="469" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1602725879908">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="469" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1602725879908" />
+    <state x="524" y="260" key="edit.logcat.filter.dialog.dimensions" timestamp="1601277005050">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="524" y="260" key="edit.logcat.filter.dialog.dimensions/0.0.1536.834@0.0.1536.834" timestamp="1601277005050" />
+    <state x="447" y="151" width="642" height="532" key="find.popup" timestamp="1603177446358">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="151" width="642" height="532" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1603177446358" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1602725970792">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1602725970792" />
+    <state x="431" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1603178776382">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1603178776382" />
+  </component>
+</project>

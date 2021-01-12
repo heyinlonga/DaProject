@@ -1,0 +1,387 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="top">
+
+        <ImageView
+            android:id="@+id/title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/back" />
+
+        <LinearLayout
+            android:id="@+id/seach_btn"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/title_right"
+            android:layout_toRightOf="@+id/title_left"
+            android:background="@drawable/seach_shape_circle_background"
+            android:clickable="true"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/seach_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@null"
+                android:hint="请输入搜索条件"
+                android:singleLine="true"
+                android:textColor="@color/textColor"
+                android:textColorHint="@color/textColor"
+                android:textSize="12sp"></EditText>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="搜索"
+            android:textColor="@color/textHoldColor" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/btn_one"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_all"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="全部"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/tip_one"
+                android:layout_width="40dp"
+                android:layout_height="3dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/textColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_two"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_book"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="图书"
+                android:textColor="@color/textHoldColor"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/tip_two"
+                android:layout_width="40dp"
+                android:layout_height="3dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_three"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_resouce"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="资源"
+                android:textColor="@color/textHoldColor"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/tip_three"
+                android:layout_width="40dp"
+                android:layout_height="3dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_four"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_question"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="答疑"
+                android:textColor="@color/textHoldColor"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/tip_four"
+                android:layout_width="40dp"
+                android:layout_height="3dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/all_margin_left"
+            android:layout_marginRight="@dimen/all_margin_right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/list_search_one_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="图书"
+                    android:textColor="@color/textColor"
+                    android:textSize="15sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    card_view:cardBackgroundColor="@color/cardviewback"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/list_search_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/all_margin_left"
+                            android:layout_marginRight="@dimen/all_margin_right"
+                            android:layout_marginTop="8dp">
+
+                        </androidx.recyclerview.widget.RecyclerView>
+
+                        <include
+                            android:id="@+id/list_search_one_foot"
+                            layout="@layout/search_list_item_more"
+                            android:visibility="gone">
+
+                        </include>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_search_two_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="资源"
+                    android:textColor="@color/textColor"
+                    android:textSize="15sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    card_view:cardBackgroundColor="@color/cardviewback"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/list_search_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/all_margin_left"
+                            android:layout_marginRight="@dimen/all_margin_right"
+                            android:layout_marginTop="8dp"></androidx.recyclerview.widget.RecyclerView>
+
+                        <include
+                            android:id="@+id/list_search_two_foot"
+                            layout="@layout/search_list_item_more"
+                            android:visibility="gone">
+
+                        </include>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/list_search_three_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="答疑"
+                    android:textColor="@color/textColor"
+                    android:textSize="15sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    card_view:cardBackgroundColor="@color/cardviewback"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/list_search_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/all_margin_left"
+                            android:layout_marginRight="@dimen/all_margin_right"
+                            android:layout_marginTop="8dp"></androidx.recyclerview.widget.RecyclerView>
+
+                        <include
+                            android:id="@+id/list_search_three_foot"
+                            layout="@layout/search_list_item_more"
+                            android:visibility="gone"></include>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_search_all_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wushuju" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_no_data_all" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/list_search_class_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/all_margin_left"
+        android:layout_marginRight="@dimen/all_margin_right"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        card_view:cardBackgroundColor="@color/cardviewback"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp">
+
+        <com.aspsine.swipetoloadlayout.SwipeToLoadLayout
+            android:id="@+id/swipeToLoadLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <software.ecenter.study.View.RefreshHeaderView
+                android:id="@+id/swipe_refresh_header"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/swipe_target"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="@dimen/all_margin_left">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <software.ecenter.study.View.LoadMoreFooterView
+                android:id="@+id/swipe_load_more_footer"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center" />
+        </com.aspsine.swipetoloadlayout.SwipeToLoadLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

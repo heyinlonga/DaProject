@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:textColor="@color/textHoldColor"
+        android:text="您对本课程满意吗？~"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/rili_bg_color"
+        android:text="可以点击下方评论语给我们快速评论哦~"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_type_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+    </RelativeLayout>
+    <software.ecenter.study.View.CircleImageView
+        android:id="@+id/pinglun_img_head"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/morentx"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/pinglun_img_head"
+        android:background="@drawable/background_shape_circle_stoke_red_5"
+        android:gravity="left"
+        android:hint="评论字数限100字~"
+        android:maxLength="140"
+        android:padding="5dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_all_shape_circle_click"
+        android:text="发布"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_pinglun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

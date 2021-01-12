@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/title_temp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/btn_left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="追问"
+            android:layout_centerInParent="true"
+            android:textColor="@color/textTitleColor"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/title_temp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/all_margin_left"
+            android:layout_marginRight="@dimen/all_margin_right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="追问描述"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/biaoqian1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="0dp"
+                android:background="@drawable/rounded_rectangle_gray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/edit_miaoshu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:hint="请输入问题描述..."
+                    android:textColorHint="@color/textColor"
+                    android:textColor="@color/textColor"
+                    android:maxLength="140"
+                    android:minHeight="110dp"
+                    android:padding="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/btn_lv_yin"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:background="@drawable/btn_ly_shape_circle_click"-->
+                <!--android:orientation="horizontal">-->
+                <!--<ImageButton-->
+                    <!--android:id="@+id/tip_ly"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:background="@drawable/luyin"/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/lv_text"-->
+                    <!--android:layout_toRightOf="@+id/tip_ly"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="25dp"-->
+                    <!--android:layout_marginRight="25dp"-->
+                    <!--android:text="按住开始录音"-->
+                    <!--android:textColor="@color/textHoldColor"-->
+                    <!--android:layout_height="wrap_content"/>-->
+            <!--</RelativeLayout>-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <!-- 录制和暂停录制按钮-->
+                <ImageView
+                    android:id="@+id/iv_play_or_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ks" />
+
+                <!--录音播放暂停删除父布局-->
+                <RelativeLayout
+                    android:id="@+id/rl_lv_yin"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/btn_ly_shape_circle_unclick"
+                    android:orientation="horizontal">
+
+                    <!--播放和停止播放按钮-->
+                    <ImageButton
+                        android:id="@+id/tip_ly"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:background="@drawable/bf1" />
+
+                    <!--播放时间-->
+                    <TextView
+                        android:id="@+id/lv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_toRightOf="@+id/tip_ly"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/textHoldColor" />
+
+                    <!--删除录音的按钮-->
+                    <ImageView
+                        android:id="@+id/iv_delete_lu_yin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/shanchu"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/iv_auditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="20dp"
+                    android:padding="@dimen/dp_5"
+                    android:src="@drawable/bofangxiao"
+                    android:visibility="gone" />
+
+                <!--完成录音的按钮-->
+                <TextView
+                    android:id="@+id/dayi_tv_ly_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_ly_shape_circle_unclick"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/btn_audio_successful"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_12" />
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_image"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/btn_submission"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="@dimen/all_margin_right"
+            android:layout_marginLeft="@dimen/all_margin_left"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_all_shape_circle_click"/>
+    </RelativeLayout>
+</RelativeLayout>

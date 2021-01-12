@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_6a3906"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_anwer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正确答案："
+            android:textColor="@color/color_6a3906"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textColor="#48B63B"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您的答案："
+            android:textColor="@color/color_6a3906"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_meAnwer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textColor="@color/err_ef5350"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解析："
+        android:textColor="@color/color_6a3906"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:scrollbars="none"
+            android:id="@+id/web_des"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_des"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/color_6a3906"
+        android:textSize="15sp" />
+</LinearLayout>

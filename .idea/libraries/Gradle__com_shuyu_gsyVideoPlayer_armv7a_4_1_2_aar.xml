@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shuyu:gsyVideoPlayer-armv7a:4.1.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29f667228bd9067578299f5b147efc8c/jetified-gsyVideoPlayer-armv7a-4.1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29f667228bd9067578299f5b147efc8c/jetified-gsyVideoPlayer-armv7a-4.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29f667228bd9067578299f5b147efc8c/jetified-gsyVideoPlayer-armv7a-4.1.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shuyu/gsyVideoPlayer-armv7a/4.1.2/6038e4535930b2f5ede68e4da8c912495c39d9d5/gsyVideoPlayer-armv7a-4.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shuyu/gsyVideoPlayer-armv7a/4.1.2/f77154fb11cf8627859fe864b5539bdb9a63905f/gsyVideoPlayer-armv7a-4.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

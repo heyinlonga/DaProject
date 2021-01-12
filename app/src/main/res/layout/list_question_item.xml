@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/all_margin_left"
+    android:layout_marginTop="7dp"
+    android:layout_marginRight="@dimen/all_margin_right"
+    android:layout_marginBottom="5dp"
+    card_view:contentPadding="15dp"
+    card_view:cardBackgroundColor="@color/cardviewback"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/question_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:singleLine="true"
+                android:layout_marginRight="11dp"
+                android:text="提问提问提问提问提问提问提问提问提问提问提问提问提问提问提问提问提问提问提问提问"
+                android:textColor="@color/textHoldColor" />
+
+            <TextView
+                android:id="@+id/question_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:text="回答"
+                android:textColor="@color/textHoldColor" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/question_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="2018-01-01"
+            android:textColor="@color/textColor" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

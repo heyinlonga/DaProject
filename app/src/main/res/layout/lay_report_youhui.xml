@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_youhui"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_alignLeft="@+id/ll_time"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ll_price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_book_youhuijia"
+                android:text="价格："
+                android:textColor="@color/color_6a3906"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_youProce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/color_6a3906"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_alignLeft="@+id/ll_time"
+            android:layout_below="@+id/ll_price1"
+            android:id="@+id/tv_youhui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_6a3906"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_alignLeft="@+id/ll_time"
+            android:layout_below="@+id/tv_youhui"
+            android:id="@+id/tv_dyj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_6a3906"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_alignLeft="@+id/ll_time"
+            android:layout_below="@+id/tv_dyj"
+            android:id="@+id/tv_jifen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_6a3906"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_time"
+            android:layout_below="@+id/tv_jifen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="距结束："
+                android:textColor="@color/color_6a3906"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_youtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_youhui"
+                android:text=""
+                android:textColor="@color/color_6a3906"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

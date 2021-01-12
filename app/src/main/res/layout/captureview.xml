@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/background"
+	>
+
+
+	<LinearLayout
+		android:orientation="vertical" android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/background_shape_circle_stoke_gray"
+		>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:background="@color/rili_bg_color"
+				android:gravity="center_horizontal"
+				android:layout_alignParentBottom="true"
+				android:layout_height="50dp">
+
+				<software.ecenter.study.View.StrokeTextView
+					android:id="@+id/time_title"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="日期"
+					android:textColor="@color/white"
+					android:textSize="20sp"
+					 android:layout_gravity="center_vertical"
+					app:strokeWidth="3dp"
+					app:outerColor="@color/rili_store_color"
+					/>
+			</LinearLayout>
+
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="@color/item_line_gray" />
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+
+				>
+				  <TextView
+			  android:gravity="center"
+			  android:layout_width="fill_parent"
+			  android:layout_weight="1.0"
+			  android:layout_height="40dp"
+			  android:text="日"
+					  android:textStyle="bold"
+			  android:textColor="@color/textHoldColor"
+			  />
+			 <TextView
+			  android:gravity="center"
+			  android:layout_width="fill_parent"
+			  android:layout_weight="1.0"
+			  android:layout_height="40dp"
+			  android:text="一"
+				 android:textStyle="bold"
+				android:textColor="@color/textHoldColor"/>
+			 <TextView
+			  android:gravity="center"
+			  android:layout_width="fill_parent"
+			  android:layout_weight="1.0"
+			  android:layout_height="40dp"
+			  android:text="二"
+				 android:textStyle="bold"
+				android:textColor="@color/textHoldColor"/>
+			  <TextView
+			  android:gravity="center"
+			  android:layout_width="fill_parent"
+			  android:layout_weight="1.0"
+			  android:layout_height="40dp"
+			  android:text="三"
+				  android:textStyle="bold"
+				android:textColor="@color/textHoldColor"/>
+			 <TextView
+			  android:gravity="center"
+			  android:layout_width="fill_parent"
+			  android:layout_weight="1.0"
+			  android:layout_height="40dp"
+			  android:text="四"
+				 android:textStyle="bold"
+				android:textColor="@color/textHoldColor"/>
+			<TextView
+			  android:gravity="center"
+			  android:layout_width="fill_parent"
+			  android:layout_weight="1.0"
+			  android:layout_height="40dp"
+			  android:text="五"
+				android:textStyle="bold"
+				android:textColor="@color/textHoldColor"/>
+			  <TextView
+			  android:gravity="center"
+			  android:layout_width="fill_parent"
+			  android:layout_weight="1.0"
+			  android:layout_height="40dp"
+			  android:text="六"
+				  android:textStyle="bold"
+				android:textColor="@color/textHoldColor"
+			   />
+
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="@color/item_line_gray"
+				 />
+
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/rili_recyclerview"
+				android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				  >
+			</androidx.recyclerview.widget.RecyclerView>
+
+		</LinearLayout>
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="40dp"
+		android:src="@drawable/rili"/>
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="40dp"
+		android:src="@drawable/rili"/>
+</RelativeLayout>

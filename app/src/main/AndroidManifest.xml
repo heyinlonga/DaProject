@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="software.ecenter.study">
+
+    <application
+        android:name=".StudyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,icon,theme,label">
+        <activity android:name=".Jpush.OpenClickActivity"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".activity.JiFenActivity" />
+        <activity
+            android:name=".activity.TeacherSpaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LogingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- <intent-filter > -->
+            <!-- <data -->
+            <!-- android:scheme="study" -->
+            <!-- android:host="software.ecenter.study" -->
+            <!-- android:path="/authLogin" -->
+            <!-- /> -->
+            <!-- <action android:name="android.intent.action.VIEW" /> -->
+            <!-- </intent-filter> -->
+        </activity> <!-- 9.0  访问不了网络 -->
+        <!-- android:networkSecurityConfig="@xml/network_security_config"  放在application标签里面 -->
+        <activity
+            android:name=".activity.AuthLoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter > -->
+            <!-- <action android:name="android.intent.action.DELETE" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="software.ecenter.study"
+                    android:path="/authLogin"
+                    android:scheme="study" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.WelcomeGuidActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ScanActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WholeCourseDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PinyinSpellListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PinyinDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PinyinLishiListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PinyinKenchenListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SafeAccountActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AccountCancleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MatchDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MatchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.StudyreportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ReportDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ReadBookListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MatchRankActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SharePinActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ShareMatchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MeResultActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ErrorTiActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MatchGuiZheActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WholeBookCourseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WholeBookChapterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DownLoadAndUpdataActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MessHuDongActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SeeResourcesVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+            <action android:name="software.ecenter.study.activity.HomeActivity"/>
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.DaYiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ForgetActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" /> <!-- 答疑 -->
+        <activity
+            android:name=".activity.RegisterTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DownLoadDActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SearchDActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyBagActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BannerDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BookDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.KengChengDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TaoXiDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChapterDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FileDisplayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ExerciseExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BigPicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ResourceBuyActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AnswerBuyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HuoDongDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ErrorSubmissionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CompositionSubmissionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.KnowledgePointActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AppShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MessageDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserInfoChangeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LevelIntegralActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IntegralDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ExchangeCouponsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AccountManagementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AccountManagementDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RechargeCouponActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CollectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DownLoadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SetExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.QuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.QuestionDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.QuestionCloselyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CommentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyUpdataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyBuyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HelpUpDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TeacherActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.RichtextActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.TeacherUpdataActivity" />
+        <activity android:name=".activity.ExerciseLookActivity" />
+        <activity android:name=".activity.WebActivity" /> <!-- richtext activity -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- 微信APPID -->
+                <data android:scheme="wxb29f269838646062" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="1106862812" />
+                <!-- 开放平台获取的APPID -->
+            </intent-filter>
+        </activity> <!-- 支付宝相关的声明 -->
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.BindPhoneActivity" /> <!-- 微信登录 -->
+        <!-- <activity -->
+        <!-- android:name="cn.jpush.android.ui.PushActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden" -->
+        <!-- android:exported="false" -->
+        <!-- android:theme="@android:style/Theme.NoTitleBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="cn.jpush.android.ui.PushActivity" /> -->
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="software.ecenter.study" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".activity.TeacherActivationActivity"
+            android:screenOrientation="portrait" /> <!-- QQ登录配置 start -->
+        <activity
+            android:name=".activity.HomeMoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TeacherResourcesActivity"
+            android:screenOrientation="portrait" /> <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar" -->
+        <activity
+            android:name=".activity.TeacherResDetailActivity"
+            android:screenOrientation="portrait" /> <!-- Required SDK核心功能 -->
+        <activity
+            android:name=".activity.TeacherResChapterDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.SeeTeacherResourcesVideoActivity" />
+
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5ae19d8a8f4a9d52c0000207" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="6a374693fdc08692e2eeb31a" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="software.ecenter.study.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider> <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <provider
+            android:name="cn.jpush.android.service.DataProvider"
+            android:authorities="software.ecenter.study.DataProvider"
+            android:exported="false" /> <!-- since 3.0.9 Required SDK 核心功能 -->
+        <!-- <provider -->
+        <!-- android:name="cn.jpush.android.service.DownloadProvider" -->
+        <!-- android:authorities="software.ecenter.study.DownloadProvider" -->
+        <!-- android:exported="false" /> -->
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="software.ecenter.study" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" /> <!-- since 3.1.0 Required SDK 核心功能 -->
+        <receiver
+            android:name=".Jpush.MyReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="software.ecenter.study" />
+            </intent-filter>
+        </receiver> <!-- Required SDK核心功能 -->
+        <receiver android:name=".Jpush.MyJPushMessageReceiver">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+
+                <category android:name="software.ecenter.study" />
+            </intent-filter>
+        </receiver> <!-- Required SDK核心功能 -->
+        <service
+            android:name=".Jpush.JGWeiService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore">
+            <intent-filter>
+                <action android:name="cn.jiguang.user.service.action" />
+            </intent-filter>
+        </service> <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <!-- User defined.  For test only  用户自定义接收消息器,3.0.7开始支持,目前新tag/alias接口设置结果会在该广播接收器对应的方法中回调 -->
+        <service
+            android:name=".service.DownLoadIntentService"
+            android:exported="false" /> <!-- Required  . Enable it you can get statistics data with channel -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:exported="false"
+            android:process=":multiprocess"
+            tools:node="replace">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="software.ecenter.study" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.UpLoadIntentService" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+    <permission
+        android:name="software.ecenter.study.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" /><!--程序获取摄像头使用以及自动对焦功能的使用权限。-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /><!--获取设备的唯一id-->
+    <uses-permission android:name="software.ecenter.study.permission.JPUSH_MESSAGE" /><!--极光权限-->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" /><!--监听用户解锁屏幕相关 -->
+    <uses-permission android:name="android.permission.INTERNET" /><!--网络访问权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /><!--允许程序访问有关GSM网络信息-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /><!--允许程序访问Wi-Fi网络状态信息-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /><!--允许程序写入外部存储-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /><!--允许程序读取外部存储-->
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" /><!--通知栏下载APK相关-->
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" /><!--下载APK相关-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /><!--允许挂载和反挂载文件系统可移动存储-->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" /><!--修改系统设置-->
+    <uses-permission android:name="android.permission.CAMERA" /><!--摄像头-->
+    <uses-permission android:name="android.permission.FLASHLIGHT" /><!--允许访问闪光灯-->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" /><!--强制关闭进程-->
+    <uses-permission android:name="android.permission.VIBRATE" /><!--允许程序振动-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /><!--允许程序在手机屏幕关闭后后台进程仍然运行-->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /><!--下载完自动安装APK-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /><!--允许程序改变Wi-Fi连接状态-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /><!--允许应用程序访问额外的位置提供命令-->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /><!--允许程序改变网络连接状态-->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+</manifest>

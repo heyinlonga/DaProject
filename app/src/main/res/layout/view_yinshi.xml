@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="70dp"
+    android:background="@drawable/shape_dialog_bg"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/tv_cancle"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/guanbi"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:text="个人隐私保护指引"
+                    android:textColor="@color/textHoldColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="请充分阅读并理解后，点击下面的按钮以接受我们的服务："
+                    android:textColor="@color/textHoldColor"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_yinsi_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_one"
+                            android:text="1."
+                            android:textColor="@color/textHoldColor"
+                            android:textSize="18sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="3dp"
+                            android:layout_toEndOf="@+id/tv_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="在浏览时，我们会收集、使用设备信息用于资源的播放。"
+                            android:textColor="@color/textHoldColor"
+                            android:textSize="15sp"
+                            />
+                    </RelativeLayout>
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="25dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:text="为了正常识别手机设备和本机手机号，进行手机认证，保证账号安全。"-->
+<!--                        android:textColor="@color/textHoldColor"-->
+<!--                        android:textSize="14sp" />-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_two"
+                            android:text="2."
+                            android:textColor="@color/textHoldColor"
+                            android:textSize="18sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_marginTop="3dp"
+                            android:layout_toEndOf="@+id/tv_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:text="上述权限以及摄像头、麦克风、存储、GPS等敏感权限均不会默认或强制开启收集信息，使用过程中我们将在具体功能需要获取某项手机权限时，请您确认同意。"
+                            android:textColor="@color/textHoldColor"
+                            android:textSize="15sp"
+                            />
+                    </RelativeLayout>
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="25dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:text="实现图片或视频的缓存和使用，降低流量消耗。"-->
+<!--                        android:textColor="@color/textHoldColor"-->
+<!--                        android:textSize="14sp" />-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_three"
+                            android:text="3."
+                            android:textColor="@color/textHoldColor"
+                            android:textSize="18sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_toEndOf="@+id/tv_three"
+                            android:id="@+id/tv_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:lineSpacingMultiplier="1.1"
+                            android:textColor="@color/textHoldColor"
+                            android:textSize="14sp" />
+<!--                        <TextView-->
+<!--                            android:id="@+id/tv_text"-->
+<!--                            -->
+<!--                            -->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:text=""-->
+<!--                            android:textColor="@color/textHoldColor"-->
+<!--                            android:textSize="15sp"-->
+<!--                            android:textStyle="bold" />-->
+                    </RelativeLayout>
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="25dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:text="为方便用户进行语音反馈。"-->
+<!--                        android:textColor="@color/textHoldColor"-->
+<!--                        android:textSize="14sp" />-->
+                </LinearLayout>
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="20dp"-->
+<!--                            android:src="@drawable/xiangji" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:text="相机/相册使用权限"-->
+<!--                            android:textColor="@color/textHoldColor"-->
+<!--                            android:textSize="15sp"-->
+<!--                            android:textStyle="bold" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="25dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:text="实现图片上传和识别。"-->
+<!--                        android:textColor="@color/textHoldColor"-->
+<!--                        android:textSize="14sp" />-->
+<!--                </LinearLayout>-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_cancle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/shape_circle_e1e1e1"-->
+<!--            android:gravity="center"-->
+<!--            android:text="不同意"-->
+<!--            android:textColor="@color/textblackColor" />-->
+
+        <TextView
+            android:id="@+id/tv_config"
+            android:layout_width="142dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_all_shape_circle_click"
+            android:gravity="center"
+            android:text="我知道了"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

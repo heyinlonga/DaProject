@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="text_size">32sp</dimen>
+    <dimen name="all_margin_left">15dp</dimen>
+    <dimen name="all_margin_right">15dp</dimen>
+    <dimen name="all_margin_top">15dp</dimen>
+    <dimen name="all_margin_bottom">15dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_105">105dp</dimen>
+    <dimen name="dp_95">95dp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="15dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp">
+
+        <ImageView
+            android:id="@+id/book_image"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/morenshu" />
+
+        <ImageView
+            android:layout_marginLeft="12.5dp"
+            android:id="@+id/iv_youhui_shu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/syyh"
+            android:visibility="gone" />
+        <ImageView
+
+            android:layout_marginTop="25dp"
+            android:id="@+id/iv_youhui_heng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/syyh"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_image"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="小状元作业本 BJ"
+        android:textColor="@color/textHoldColor"
+        android:textSize="@dimen/sp_12" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Study.iml" filepath="$PROJECT_DIR$/.idea/Study.iml" group="Study" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Study/app" />
+      <module fileurl="file://$PROJECT_DIR$/circleprogressbar/circleprogressbar.iml" filepath="$PROJECT_DIR$/circleprogressbar/circleprogressbar.iml" group="Study/circleprogressbar" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" group="Study/mylibrary" />
+      <module fileurl="file://$PROJECT_DIR$/oss-android-sdk/oss-android-sdk.iml" filepath="$PROJECT_DIR$/oss-android-sdk/oss-android-sdk.iml" group="Study/oss-android-sdk" />
+      <module fileurl="file://$PROJECT_DIR$/picture/picture.iml" filepath="$PROJECT_DIR$/picture/picture.iml" group="Study/picture" />
+      <module fileurl="file://$PROJECT_DIR$/zxinglibrary/zxinglibrary.iml" filepath="$PROJECT_DIR$/zxinglibrary/zxinglibrary.iml" group="Study/zxinglibrary" />
+    </modules>
+  </component>
+</project>

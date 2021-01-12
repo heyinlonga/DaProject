@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_top"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:padding="10dp"
+            android:src="@drawable/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_6a3906"
+            android:textSize="16sp"
+            android:text="排行榜"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_share"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_6a3906"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:text="分享"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <include layout="@layout/lay_share"/>
+</LinearLayout>

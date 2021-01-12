@@ -1,0 +1,54 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        /*sdk and version*/
+        compile_sdk_version = 28
+        build_tools_version = '28.0.2'
+        min_sdk_version = 19
+        target_sdk_version = 28
+        constraint_version = '1.1.0'
+        version_code = 219
+        version_name = '2.1.9'
+
+        /*support*/
+        android_support = '28.0.0'
+
+    }
+    repositories {
+        jcenter()
+        google()
+        mavenCentral()
+        maven { url 'http://developer.huawei.com/repo/' }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+        //1.自动化maven打包插件
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        //2.自动上传至Bintray平台插件
+        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        //华为推送
+        classpath 'com.huawei.agconnect:agcp:1.0.0.300'
+    }
+}
+
+allprojects {
+    group "yuZhiQiang"
+    repositories {
+        google()
+        jcenter()
+        //SwipeToLoadLayout
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'http://developer.huawei.com/repo/' }
+        maven { url 'https://maven.google.com' }
+        maven { url 'http://maven.oa.com/nexus/content/repositories/android' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

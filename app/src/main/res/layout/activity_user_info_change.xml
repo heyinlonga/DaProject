@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/title_temp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/btn_left_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:text="取消"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/textHoldColor"/>
+        <TextView
+            android:id="@+id/title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改昵称"
+            android:layout_centerInParent="true"
+            android:textColor="@color/textTitleColor"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/btn_right_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="保存"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/textHoldColor"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/title_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="@dimen/all_margin_left"
+        android:layout_marginRight="@dimen/all_margin_right"
+        android:paddingBottom="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5"
+        android:background="@drawable/btn_shape_circle_click"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/userinfo_changge_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="输入修改的内容"
+            android:textColorHint="@color/textColor"
+            android:textColor="@color/textHoldColor"
+            android:padding="5dp"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

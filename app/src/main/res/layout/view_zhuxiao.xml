@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/shape_dialog_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_cancle"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="right"
+            android:src="@drawable/guanbi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:text="提交成功"
+            android:textColor="@color/textHoldColor"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:text="客服人员将在2个工作日内与你确认并协助完成账号注销。"
+            android:textColor="@color/textHoldColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

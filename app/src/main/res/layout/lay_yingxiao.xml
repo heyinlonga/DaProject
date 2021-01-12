@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_youhui"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:visibility="gone"
+        android:id="@+id/ll_zbProce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正版："
+            android:textColor="@color/color_C9AB79"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_zbProce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_6a3906"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_zbyouProce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正版优惠价："
+            android:textColor="@color/color_C9AB79"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_zbyouProce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_6a3906"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/ll_youProce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_youProce_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_book_youhuijia"
+            android:text="价格："
+            android:textColor="@color/color_C9AB79"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_youProce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_book_youhuijia"
+            android:text=""
+            android:textColor="@color/color_6a3906"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_youhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/textHoldColor"
+        android:textSize="14sp" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_dyj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/textHoldColor"
+        android:textSize="14sp" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_jifen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/textHoldColor"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_time"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="距结束："
+            android:textColor="@color/color_C9AB79"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_youhui"
+            android:text=""
+            android:textColor="@color/color_6a3906"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

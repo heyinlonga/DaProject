@@ -1,0 +1,444 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/btn_left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="注册"
+            android:textColor="@color/textTitleColor"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:contentPadding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--地区-->
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn_set_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/background_shape_circle_edit"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="*地区:"
+                    android:textColor="@color/textHoldColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/set_address_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:hint="请选择地区"
+                    android:textColorHint="@color/textColor"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/set_address_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zhangkai" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#eeeeee" />
+            <!--学校-->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/btn_set_school"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/background_shape_circle_edit"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  学校:"
+                    android:textColor="@color/textHoldColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/set_school_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:hint="请选择学校"
+                    android:textColorHint="@color/textColor"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/set_school_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zhangkai" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#eeeeee" />
+            <!--年级-->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/btn_set_grade"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/background_shape_circle_edit"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="*年级:"
+                    android:textColor="@color/textHoldColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/set_grade_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:hint="请选择年级"
+                    android:textColorHint="@color/textColor"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/set_grade_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zhangkai" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#eeeeee" />
+            <!--身份-->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/btn_set_shenfen"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/background_shape_circle_edit"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="*身份:"
+                    android:textColor="@color/textHoldColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/set_shenfen_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:hint="请选择身份"
+                    android:textColorHint="@color/textColor"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/set_shenfen_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zhangkai" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#eeeeee" />
+            <!--身份-->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/background_shape_circle_edit"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="*昵称:"
+                    android:textColor="@color/textHoldColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:maxLength="10"
+                    android:id="@+id/set_nickName_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:hint="请输入昵称"
+                    android:background="@null"
+                    android:layout_marginRight="10dp"
+                    android:textColorHint="@color/textColor"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#eeeeee" />
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/btn_xieyi"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="注册即代表同意《状元共享课堂APP用户协议》"
+                android:textColor="@color/textHoldColor" />
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/btn_all_shape_circle_click"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="注册"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/logo"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/btn_set_address"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:background="@drawable/background_shape_circle_edit"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tip_one"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="地区:"-->
+        <!--android:textColor="@color/textHoldColor"-->
+        <!--android:textSize="14sp" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/set_address_text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_toRightOf="@+id/tip_one"-->
+        <!--android:gravity="center"-->
+        <!--android:text="请选择地区"-->
+        <!--android:textColor="@color/textColor"-->
+        <!--android:textSize="14sp" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/set_address_img"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:src="@drawable/xuanze1" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/btn_set_grade"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:background="@drawable/background_shape_circle_edit"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tip_two"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:gravity="center"-->
+                <!--android:text="年级:"-->
+                <!--android:textColor="@color/textHoldColor"-->
+                <!--android:textSize="14sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/set_grade_text"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_toRightOf="@+id/tip_two"-->
+                <!--android:gravity="center"-->
+                <!--android:text="请选择年级"-->
+                <!--android:textColor="@color/textColor"-->
+                <!--android:textSize="14sp" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/set_grade_img"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:src="@drawable/xuanze1" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/btn_set_shenfen"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:background="@drawable/background_shape_circle_edit"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tip_three"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:gravity="center"-->
+                <!--android:text="身份:"-->
+                <!--android:textColor="@color/textHoldColor"-->
+                <!--android:textSize="14sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/set_shenfen_text"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_toRightOf="@+id/tip_three"-->
+                <!--android:gravity="center"-->
+                <!--android:text="请选择身份"-->
+                <!--android:textColor="@color/textColor"-->
+                <!--android:textSize="14sp" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/set_shenfen_img"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:src="@drawable/xuanze1" />-->
+
+        <!--</RelativeLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:text="点击注册即代表已同意状元共享课堂"-->
+                <!--android:textColor="@color/textHoldColor" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/btn_xieyi"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="《用户协议》"-->
+                <!--android:textColor="@color/textColor" />-->
+        <!--</LinearLayout>-->
+        <!--<Button-->
+            <!--android:id="@+id/btn_register"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_margin="15dp"-->
+            <!--android:background="@drawable/btn_all_shape_circle_click"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp"-->
+            <!--android:text="提交信息并注册"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:textSize="14sp" />-->
+    <!--</LinearLayout>-->
+</LinearLayout>

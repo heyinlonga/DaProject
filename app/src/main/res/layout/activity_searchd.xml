@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <ImageView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/back" />
+
+            <EditText
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:id="@+id/seach_edit"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="50dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/seach_shape_circle_background"
+                android:hint="请输入搜索条件"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/textColor"
+                android:textColorHint="@color/textColor"
+                android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:text="搜索"
+            android:textColor="@color/textHoldColor" />
+    </RelativeLayout>
+    <com.flyco.tablayout.SlidingTabLayout
+        android:visibility="gone"
+        android:background="@color/white"
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        tl:tl_textsize="15sp"
+        tl:tl_indicator_color="@color/textColor"
+        tl:tl_indicator_corner_radius="1.5dp"
+        tl:tl_indicator_height="2dp"
+        tl:tl_indicator_width_equal_title="true"
+        tl:tl_tab_space_equal="true"
+        tl:tl_textSelectColor="@color/textColor"
+        tl:tl_textUnselectColor="@color/textHoldColor" />
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:visibility="gone"
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

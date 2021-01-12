@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/shape_dialog_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:text="绑定防伪码"
+                android:textColor="@color/textHoldColor"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/auth_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="2dp"
+                android:padding="15dp"
+                android:src="@drawable/guanbi" />
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingMultiplier="1.1"
+                android:textColor="@color/color_666666"
+                android:textSize="14sp"
+                android:text="请输入防伪码"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/ed_contetn"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:text=""
+                android:singleLine="true"
+                android:inputType="number"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:textColor="@color/textHoldColor"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_edit_bg"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingMultiplier="1.1"
+                android:textColor="@color/color_666666"
+                android:textSize="14sp"
+                android:text="示例"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_gif"
+                    android:adjustViewBounds="true"
+                    android:minHeight="130dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:visibility="invisible"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingMultiplier="1.1"
+                android:textColor="@color/color_666666"
+                android:textSize="14sp"
+                android:text="示例"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:lineSpacingMultiplier="1.1"
+            android:textColor="@color/color_666666"
+            android:textSize="12sp"
+            android:text="防伪码位于图书封面左下角"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_cancle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_circle_77c3fa"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_config"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_all_shape_circle_click"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

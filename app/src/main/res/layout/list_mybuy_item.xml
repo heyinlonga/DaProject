@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/all_margin_left"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="@dimen/all_margin_right"
+    android:layout_marginBottom="5dp"
+    card_view:cardBackgroundColor="@color/cardviewback"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/buy_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textSize="13sp"
+                android:textColor="@color/textHoldColor" />
+
+            <TextView
+                android:textSize="12sp"
+                android:id="@+id/buy_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textColor="@color/color_EE7C55" />
+        </LinearLayout>
+        <TextView
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/buy_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textColor="@color/textHoldColor" />
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:id="@+id/buy_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="2018-01-01"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:text="消费类型:"
+                android:textColor="@color/textHoldColor" />
+            <TextView
+                android:textSize="12sp"
+                android:id="@+id/buy_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text=""
+                android:textColor="@color/textColor" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

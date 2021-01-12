@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="A"
+        android:visibility="visible"
+        android:layout_toLeftOf="@+id/item_img"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/textHoldColor"
+        android:textSize="16sp" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        card_view:cardBackgroundColor="@color/cardviewback"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="5dp">
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:layout_toLeftOf="@+id/item_img"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:textColor="@color/textHoldColor"
+            android:textSize="14sp" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

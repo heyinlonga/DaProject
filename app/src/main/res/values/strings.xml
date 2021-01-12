@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">状元共享课堂</string>
+
+    <!--网络相关-->
+    <string name="net_error">网络请求超时，请稍后再试</string>
+    <string name="net_no">网络未打开</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="get_check_code">获取验证码</string>
+
+    <string name="net_refresh">点击屏幕刷新</string>
+    <string name="resources_have_been_purchased">资源已获取</string>
+
+    <string name="buy_name"> 元宝</string>
+
+    <string name="quest_tip">"●   对龙门图书提问，需要1答疑券（或其他等值消费）；对非龙门图书提问，需要2答疑券（或其他等值消费）。
+●   为了保证提问效果，使用语音时请用普通话，提交图片时请保证拍摄题目唯一清晰完整。
+●   答疑时间：周一到周日8：00~22：30，22：30后提出的问题将在次日及时为您解答。法定节假日答疑时间安排见具体通知。"
+    </string>
+
+    <string name="quest_one">●   对龙门图书提问，需要1答疑券（或其他等值消费）；对非龙门图书提问，需要2答疑券（或其他等值消费）。</string>
+
+    <string name="quest_jing_pin_tip">●   对精品课程提问，需要1答疑券（或其他等值消费）。答疑时间：周一到周日8：00-22：30，22：30后提出的问题将在次日及时为您解答。法定节假日答疑时间安排见具体通知。</string>
+
+    <!--答疑问题-->
+    <string name="dayi_long_men">龙门图书问题</string>
+    <string name="dayi_no_longmen">非龙门图书问题</string>
+    <string name="shu_jie_close_title">书章节:</string>
+    <string name="shu_jie_close_jingpin_title">精品课程:</string>
+    <string name="dayi_one_key_clear"><u>一键清空</u></string>
+    <string name="btn_audio_successful">完成</string>
+
+    <!--图书详情-->
+    <string name="book_toast0">该资源为付费资源，且不支持单独购买，请返回上一级打包购买</string>
+    <string name="book_toast__1">该资源为付费资源，且不支持单独购买，请返回图书详情页进行整书购买
+</string>
+
+    <!--套系组合-->
+    <string name="taoxi_buy_text">购买套系资源</string>
+
+    <!--精品课程-->
+    <string name="kecheng_buy_text">购买课程资源</string>
+    <!--资源列表-->
+    <string name="chapter_tip">●   提示：本章节资源打包购买不含创新课，创新课资源仅可单独购买或整书购买。</string>
+
+    <!--注册-->
+    <string name="regist_password">您的密码不符合安全强度要求，请重新输入</string>
+    <string name="regist_err_phone">该手机号已注册</string>
+    <string name="regist_err_phone_number">手机号码不正确</string>
+    <string name="regist_err_password">该手机号已注册</string>
+    <string name="regist_err_code">验证码错误</string>
+    <string name="password_gui_ze">6~16位数字与字母的组合</string>
+    <!--忘记密码 -->
+    <string name="forget_password">您的密码不符合安全强度要求，请重新输入</string>
+    <string name="forget_err_phone_number">手机号码不正确</string>
+    <string name="forget_err_code">验证码错误</string>
+    <!--绑定手机号-->
+    <string name="bind_err_phone_number">手机号码不正确</string>
+    <string name="bind_err_code">验证码错误</string>
+    <!--搜索-->
+    <string name="match_no_data_all">暂无比赛</string>
+    <string name="search_no_data_all">暂无结果</string>
+    <string name="mess_no_data_all">暂无消息</string>
+
+    <!--反馈提示-->
+    <string name="help_up_data">请写下您遇到的问题和您的意见</string>
+    <string name="help_up_data_book">请上传图书封面照片与您存疑页码的照片，并详细描述问题</string>
+    <string name="help_up_data_app">请上传您使用APP过程中遇到问题的界面截图，并详细描述问题及您的设备型号、使用网络及详细操作步骤</string>
+    <string name="help_up_data_other">请详细描述您遇到的问题</string>
+
+
+    <string name="teacher_activation">您的教师空间尚未激活，只能查看试用资源，如需查看或下载更多资源，请使用《黄冈小状元》系列教师用书上的激活码激活教师空间，激活成功后，可在APP查看所有教师资源，在PC端免费下载激活。
+PC端的网址：http://xzykt.longmenshuju.com</string>
+    <string name="share_one">我参加了“%1$s”阅读大赛，每周都可以报名参赛</string>
+    <string name="share_two">我在“%1$s”阅读大赛中获得了%2$s！每周都可以报名参赛</string>
+    <string name="share_thr">我在“%1$s”阅读大赛中荣获了%2$s的称号！每周都可以报名参赛</string>
+</resources>

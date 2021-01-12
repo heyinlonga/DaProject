@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_temp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/btn_left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="作文投稿"
+            android:textColor="@color/textTitleColor"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_temp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/composition_ll"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="省份" />
+
+                <RelativeLayout
+                    android:id="@+id/btn_province"
+                    style="@style/composition_rl">
+
+                    <TextView
+                        android:id="@+id/province_text"
+                        style="@style/composition_tv_value" />
+
+                    <ImageView
+                        android:id="@+id/province_img"
+                        style="@style/composition_iv" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/composition_ll">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="城市" />
+
+                <RelativeLayout
+                    android:id="@+id/btn_city"
+                    style="@style/composition_rl">
+
+                    <TextView
+                        android:id="@+id/city_text"
+                        style="@style/composition_tv_value" />
+
+                    <ImageView
+                        android:id="@+id/city_img"
+                        style="@style/composition_iv" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/composition_ll">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="区县" />
+
+                <RelativeLayout
+                    android:id="@+id/btn_area"
+                    style="@style/composition_rl">
+
+                    <TextView
+                        android:id="@+id/area_text"
+                        style="@style/composition_tv_value" />
+
+                    <ImageView
+                        android:id="@+id/area_img"
+                        style="@style/composition_iv" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/composition_ll">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="学校" />
+
+                <RelativeLayout
+                    android:id="@+id/btn_school"
+                    style="@style/composition_rl">
+
+                    <TextView
+                        android:id="@+id/school_text"
+                        style="@style/composition_tv_value" />
+
+                    <ImageView
+                        android:id="@+id/school_img"
+                        style="@style/composition_iv" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/composition_ll">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="学期" />
+
+                <RelativeLayout
+                    android:id="@+id/btn_grade"
+                    style="@style/composition_rl">
+
+                    <TextView
+                        android:id="@+id/grade_text"
+                        style="@style/composition_tv_value" />
+
+                    <ImageView
+                        android:id="@+id/grade_img"
+                        style="@style/composition_iv" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/composition_ll">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="单元" />
+
+                <RelativeLayout
+                    android:id="@+id/btn_unit"
+                    style="@style/composition_rl">
+
+                    <TextView
+                        android:id="@+id/unit_text"
+                        style="@style/composition_tv_value" />
+
+                    <ImageView
+                        android:id="@+id/unit_img"
+                        style="@style/composition_iv" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="学生姓名" />
+
+                <EditText
+                    android:maxLength="14"
+                    android:id="@+id/tvName"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape_circle_click"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="辅导人" />
+
+                <EditText
+                    android:maxLength="14"
+                    android:id="@+id/tvTeacher"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape_circle_click"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="手机号" />
+                <TextView
+                    android:visibility="invisible"
+                    style="@style/composition_tv_title"
+                    android:text="码" />
+
+                <EditText
+                    android:id="@+id/tvMobile"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape_circle_click"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:maxLength="11"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="通讯地址" />
+
+                <EditText
+                    android:id="@+id/tvAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_shape_circle_click"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/composition_tv_title"
+                    android:text="作文标题" />
+
+                <EditText
+                    android:hint="40字以内"
+                    android:id="@+id/composition_title"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:maxLength="40"
+                    android:background="@drawable/btn_shape_circle_click"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"></androidx.recyclerview.widget.RecyclerView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_rectangle_gray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/composition_context"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:maxLength="1200"
+                    android:hint="请输入作文正文（1200字以内）"
+                    android:maxLines="140"
+                    android:padding="5dp"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_fang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="找不到所在的学校，请到 "
+                    android:textColor="@color/textHoldColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="此处"
+                    android:textColor="@color/red_f00"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 提交反馈"
+                    android:textColor="@color/textHoldColor"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_submission"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/btn_all_shape_circle_click"
+                android:text="提交"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

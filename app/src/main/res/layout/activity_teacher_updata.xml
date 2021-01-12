@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/title_temp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/btn_left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传资源"
+            android:layout_centerInParent="true"
+            android:textColor="@color/textTitleColor"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/btn_refresh_net"
+        android:layout_below="@+id/title_temp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <include layout="@layout/net_error"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@+id/btn_refresh_net"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/all_margin_left"
+            android:layout_marginRight="@dimen/all_margin_right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="题目关联"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/biaoqian1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/btn_nianji"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_shape_circle_click"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/nianji_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textHoldColor"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_centerVertical="true"
+                        android:text="年级:"/>
+                    <TextView
+                        android:id="@+id/nianji_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColor"
+                        android:layout_toRightOf="@+id/nianji_tip"
+                        android:layout_marginLeft="5dp"
+                        android:layout_centerVertical="true"
+                        android:text="请选择"/>
+                    <ImageView
+                        android:id="@+id/nianji_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/xuanze1"
+                        android:layout_marginRight="5dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/btn_xueke"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/btn_shape_circle_click"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/xueke_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textHoldColor"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_centerVertical="true"
+                        android:text="学科:"/>
+                    <TextView
+                        android:id="@+id/xueke_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColor"
+                        android:layout_toRightOf="@+id/xueke_tip"
+                        android:layout_marginLeft="5dp"
+                        android:layout_centerVertical="true"
+                        android:text="请选择"/>
+                    <ImageView
+                        android:id="@+id/xueke_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/xuanze1"
+                        android:layout_marginRight="5dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/btn_zhishidian"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_shape_circle_click"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/zhishidian_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textHoldColor"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="知识点："/>
+                    <TextView
+                        android:id="@+id/zhishidian_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_marginLeft="5dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/textColor"
+                        android:layout_toRightOf="@+id/zhishidian_tip"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上传图片"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/biaoqian2" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_image"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="pc端正在开发中，上线后其他类型文档请在pc端提交"
+                android:textColor="@color/textHoldColor"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/btn_submission"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="@dimen/all_margin_right"
+            android:layout_marginLeft="@dimen/all_margin_left"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_all_shape_circle_click"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/all_margin_left"
+        android:layout_marginRight="@dimen/all_margin_right"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/account_detail_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:text="2分"
+            android:textColor="@color/textHoldColor" />
+
+        <TextView
+            android:id="@+id/account_detail_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@+id/account_detail_num"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="每日签到"
+            android:textColor="@color/textHoldColor" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/account_detail_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/all_margin_left"
+        android:layout_marginRight="@dimen/all_margin_right"
+        android:textSize="11sp"
+        android:layout_marginTop="10dp"
+        android:text="2018-01-01"
+        android:textColor="@color/textColor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="@color/item_line_gray" />
+
+</LinearLayout>

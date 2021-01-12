@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".activity.TeacherSpaceActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/btn_left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="教师空间"
+            android:textColor="@color/textTitleColor"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_refresh_net"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <include layout="@layout/net_error" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_corners5_fffdee"
+        android:paddingLeft="15dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:text="教师资格认证"
+        android:textColor="@color/textTitleColor"
+        android:textSize="14sp" />
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_corners5_fffdee"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTeacherActivation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="18dp"
+            android:layout_weight="1"
+            android:paddingBottom="18dp"
+            android:text="教师资源激活"
+            android:textColor="@color/textTitleColor"
+            android:textSize="14sp" />
+            <!--android:textColor="@drawable/selector_teacherspace_tv"-->
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_look"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="查看资源"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@drawable/selector_teacherspace_tv"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

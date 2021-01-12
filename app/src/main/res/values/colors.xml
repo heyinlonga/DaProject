@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#cbf4fa</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="textColor">#cfaa71</color>
+    <color name="textHoldColor">#723600</color>
+    <color name="textgrayColor">#c4c4c4</color>
+    <color name="textTitleColor">#723600</color>
+    <color name="item_line_gray">#e1e1e1</color>
+    <color name="cardviewback">#fffdec</color>
+    <color name="transparent">#00000000</color>
+    <color name="te_shu_cardviewback">#b8e986</color>
+    <color name="textblackColor">#333333</color>
+    <color name="textrightColor">#ff4248</color>
+    <color name="texterrorColor">#2bc17b</color>
+    <color name="btn_gray">#d9d9d9</color>
+    <color name="btn_blue">#4691db</color>
+    <color name="btn_green">#2bc17b</color>
+    <color name="blue">#4691db</color>
+    <color name="tmzt">#80723600</color>
+    <color name="fe7449">#fe7449</color>
+
+
+    <color name="rili_store_color">#723600</color>
+    <color name="rili_bg_color">#cfaa71</color>
+
+    <color name="progress_background_color">#ffbd72</color>
+    <color name="progress_color">#ff7449</color>
+
+    <color name="price_color">#ffff4444</color>
+    <color name="red_f00">#ff0000</color>
+    <color name="ccc">#CCCCCC</color>
+    <color name="d9d9">#d9d9d9</color>
+    <color name="color_7070">#707070</color>
+    <color name="color_b37070">#33707070</color>
+    <color name="color_afcccf">#ccafcccf</color>
+
+    <color name="three_e85">#33ee85</color>
+    <color name="one_b934">#1BB934</color>
+    <color name="ae">#AEAEAE</color>
+    <color name="err_ef5350">#ff0000</color>
+    <color name="color_fffdee">#fffdee</color>
+    <color name="color_F77450">#F77450</color>
+
+    <color name="color_F1916E">#F1916E</color>
+    <color name="color_C9AB79">#C9AB79</color>
+    <color name="color_6a3906">#6a3906</color>
+    <color name="color_7FB1D1">#7FB1D1</color>
+    <color name="color_EE7C55">#EE7C55</color>
+    <color name="color_4BA7F8">#4BA7F8</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_0099ff">#0099ff</color>
+    <color name="color_48B63B">#48B63B</color>
+    <color name="color_FE0000">#FE0000</color>
+    <!--饼图-->
+    <color name="color_F9C900">#F9C900</color>
+    <color name="color_00D6B7">#00D6B7</color>
+    <color name="color_14BBF2">#14BBF2</color>
+    <color name="color_A071EA">#A071EA</color>
+
+    
+</resources>

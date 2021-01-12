@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/shape_dialog_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:text="验证防伪码"
+                android:textColor="@color/textHoldColor"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/auth_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="2dp"
+                android:padding="15dp"
+                android:src="@drawable/guanbi" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingMultiplier="1.1"
+            android:textColor="@color/textHoldColor"
+            android:textSize="16sp"
+            android:text="每本书有一个独立的防伪码。绑定防伪码后，可享受该书资源正版的优惠价格、获赠答疑卷福利。"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:textColor="#666666"
+            android:textSize="13sp"
+            android:text="绑定前请仔细核对您的图书及版本，绑错将无法恢复！"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_cancle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_circle_77c3fa"
+                android:gravity="center"
+                android:text="扫码验证"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_config"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_all_shape_circle_click"
+                android:gravity="center"
+                android:text="手动绑码验证"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_pay"
+            android:gravity="center"
+            android:textColor="@color/textHoldColor"
+            android:textSize="16sp"
+            android:text="不验证，直接购买"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

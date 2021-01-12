@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <RelativeLayout
+        android:id="@+id/answer_back_Rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/answer_back_webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tip_temp"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+            <!--<TextView
+                android:id="@+id/answer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/textHoldColor"
+                android:text="A答暗暗暗暗暗安呐A答暗暗暗暗暗安呐" />
+            -->
+            <WebView
+                android:id="@+id/answer_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#f00"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/textHoldColor">
+
+            </WebView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tip_temp"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/all_margin_right"
+            android:gravity="center"
+            android:minHeight="45dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/check_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xuan_r1" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
